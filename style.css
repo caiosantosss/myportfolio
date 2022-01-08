@@ -1,1 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto+Mono:wght@400;700&family=Source+Code+Pro:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: rgb(113,72,255);
+  background: linear-gradient(45deg, rgba(113,72,255,1) 14%, rgba(114,156,255,1) 49%, rgba(168,174,255,1) 78%);
+}
