@@ -20,3 +20,19 @@ body {
   justify-content: space-around;
   padding: 24px;
 }
+
+.header-img {
+  height: 42px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.header-menu-item {
+  font-family: 'Roboto Mono', monospace;
+  color: aquamarine;
+  font-weight: 400;
+  font-size: 18px;
+}
