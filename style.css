@@ -36,3 +36,44 @@ body {
   font-weight: 400;
   font-size: 18px;
 }
+
+.content1 {
+  margin-bottom: 40px;
+  border-top: 0.4px solid aquamarine;
+}
+
+.content-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content-main-write {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.content-main-write-title {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;
+  font-size: 64px;
+  color: aquamarine;
+}
+
+.content-main-write-subtitle {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;
+  font-size: 24px;
+  color: aquamarine;
+}
+
+.content-main-write-button {
+  background-color: aquamarine;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
