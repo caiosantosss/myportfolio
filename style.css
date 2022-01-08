@@ -83,6 +83,10 @@ body {
   color: #666666;
 }
 
+.content-main-write-button:hover {
+  background-color: greenyellow;
+}
+
 .content-main-img {
   height: 250px;
 }
@@ -110,4 +114,15 @@ body {
   color: aquamarine;
   font-weight: 300;
   font-size: 16px;
+}
+
+.footer1 {
+  padding: 32px;
+  border-top: 0.4px solid aquamarine;
+}
+
+.footer-img {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
 }
